@@ -5,18 +5,28 @@
 	box-sizing: border-box;
 }
 
+/* Utils */
+
+.cta-btn {
+	padding: 10px 30px;
+	color: white;
+	border: 1px solid white;
+	text-transform: uppercase;
+	border-radius: 25px;
+}
+
 /* Main */
 
 main {
-	height: calc(100vh - 100px);
+	height: calc(100vh - 150px);
 	background-color: aquamarine;
 	display: flex;
 }
 
 
 .sidebar {
-	width: 50px;
-	height: calc(100vh - 100px);
+	width: 100px;
+	height: calc(100vh - 150px);
 	background-color: black;
 }
 
@@ -24,13 +34,18 @@ main {
 
 header {
 	width: calc(100vw - 50px);
-	height: 100px;
+	height: 150px;
 	background-color: blueviolet;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+
 }
 
 /* Footer */
 
 footer {
-	height: 100px;
+	height: 150px;
 	background-color: #fdfa3a;
 }
