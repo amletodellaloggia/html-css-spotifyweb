@@ -5,16 +5,27 @@
 	box-sizing: border-box;
 }
 
+/* Main */
+
 main {
-	height: calc(100vh - 100px);
+	height: calc(100vh - 200px);
 	background-color: aquamarine;
+	display: flex;
 }
 
 
 .sidebar {
-	width: 100px;
+	width: 150px;
 	height: 100%;
 	background-color: black;
+}
+
+/* Header */
+
+header {
+	width: calc(100vw - 150px);
+	height: 200px;
+	background-color: blueviolet;
 }
 
 /* Footer */
