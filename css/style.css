@@ -25,6 +25,9 @@ main {
 
 
 .sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	width: 100px;
 	height: calc(100vh - 150px);
 	background-color: black;
