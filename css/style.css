@@ -5,6 +5,18 @@
 	box-sizing: border-box;
 }
 
+main {
+	height: calc(100vw - 100px);
+	background-color: aquamarine;
+}
+
+
+.sidebar {
+	width: 100px;
+	height: 100%;
+	background-color: black;
+}
+
 /* Footer */
 
 footer {
