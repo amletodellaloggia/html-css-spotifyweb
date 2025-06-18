@@ -23,7 +23,6 @@ main {
 	display: flex;
 }
 
-
 .sidebar {
 	display: flex;
 	flex-direction: column;
@@ -33,10 +32,31 @@ main {
 	background-color: black;
 }
 
+.content {
+	height: 100%;
+	width: calc(100vw - 100px);
+	background-color: brown;
+	overflow-y: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col {
+	width: calc(100% / 2);
+	background-color: cadetblue;
+}
+
+col img {
+	width: 100%;
+}
+
 /* Header */
 
-header {
-	width: calc(100vw - 50px);
+.cta {
+	width: calc(100vw - 100px);
 	height: 150px;
 	background-color: blueviolet;
 	display: flex;
@@ -44,6 +64,10 @@ header {
 	justify-content: center;
 	align-items: flex-end;
 
+}
+
+.col h3, p{
+	text-align: center;
 }
 
 /* Footer */
