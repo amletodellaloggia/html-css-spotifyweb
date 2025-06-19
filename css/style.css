@@ -57,6 +57,8 @@ main {
 	display: flex;
 }
 
+/* Sidebar */
+
 .sidebar {
 	display: flex;
 	flex-direction: column;
@@ -73,7 +75,6 @@ main {
 	flex-direction: column;
 }
 .lower-sidebar {
-	height: calc(100vh - 100px);
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -84,6 +85,8 @@ main {
 	background-color: gray;
 	max-width: 100%;
 }
+
+/* Content */
 
 .content {
 	height: 100%;
@@ -128,7 +131,6 @@ main {
 	list-style-type: none;
 }
 
-/* Sidebar */
 
 
 
@@ -163,7 +165,7 @@ footer {
 }
 
 .currently-playing {
-	height: 100%;
+	height: 100%;	
 	background-color: green;
 	display: flex;
 	border: 1px solid white;
@@ -207,7 +209,6 @@ footer {
 }
 
 .track-bar {
-	width: 70%;
 	background-color: grey;
 	height: 5px;
 	border-radius: 5px;
