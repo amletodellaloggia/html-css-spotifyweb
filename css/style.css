@@ -7,6 +7,10 @@
 
 /* Utils */
 
+.justify-content-center {
+	justify-content: center;
+}
+
 .cta-btn {
 	padding: 10px 30px;
 	color: white;
@@ -41,23 +45,41 @@ main {
 	border: 1px solid white;
 }
 
+.container {
+	width: calc(100vw - 50px);
+	height: 100%;
+}
+
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
+	gap: 10px;
 }
 
 .col {
 	display: flex;
 	flex-direction: column;
-	width: calc(100% / 2);
+	width: calc(100% / 2 - 20px);
 	background-color: cadetblue;
 	border: 1px solid white;
-	margin: 10px;
 }
 
 .col img {
 	width: 100%;
 }
+
+
+.navbar ul {
+	display: flex;
+	flex-wrap: wrap;
+	color: white;
+}
+
+.navbar ul li {
+	list-style-type: none;
+}
+
 
 /* Header */
 
@@ -80,7 +102,56 @@ main {
 /* Footer */
 
 footer {
+	display: flex;
 	height: 100px;
 	background-color: #fdfa3a;
 	border: 1px solid white;
+
+}
+
+.music-player {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+}
+
+.track-bar {
+	width: 70%;
+	background-color: grey;
+	height: 5px;
+	border-radius: 5px;
+	margin: 0px 10px;
+	position: relative;
+}
+
+.elapsed-time {
+	position: absolute;
+	background-color: silver;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 20%;
+	border-radius: 5px;
+}
+
+.controller-point {
+	position: absolute;
+	display: block;
+	top: 50%;
+	right: 0;
+	width: 15px;
+	height: 15px;
+	background-color: silver;
+	border-radius: 50%;
+	border: 1px solid black;
+	transform: translateY(-50%);
+}
+
+.music-player:hover .elapsed-time {
+	background-color: green;
+}
+
+.music-player:hover .controller-point{
+	display: block;
 }
