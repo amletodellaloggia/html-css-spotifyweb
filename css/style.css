@@ -69,6 +69,12 @@ main {
 	color: gray;
 }
 
+.container h2{
+	margin-left: 15px;
+	margin-bottom: 1rem;
+	color: white;
+}
+
 /* Sidebar */
 
 .sidebar {
@@ -134,7 +140,7 @@ main {
 .navbar ul{
   display: flex;
   flex-wrap: wrap;
-  color: white;
+  color: grey;
   text-transform: uppercase;
   width: 75%;
   gap: 10px;
