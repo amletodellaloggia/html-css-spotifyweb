@@ -375,3 +375,26 @@ footer {
   border: 1px solid black;
   transform: translateY(-50%);
 }
+
+
+@media all and (min-width: 768px){
+
+	.sidebar {
+		width: 250px;
+	}
+	.upper-sidebar, .lower-sidebar {
+		width: 25%;
+	}
+
+	.content, .container, h2, .cta, .footer {
+		width: calc(100vw - 250px);
+	}
+
+	#sb-logo-small {
+		display: none;
+	}
+}	#sb-logo {
+	display: inline-block;
+	width: 225px;
+	padding-bottom: 25px;
+}
