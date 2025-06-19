@@ -11,12 +11,28 @@
 	justify-content: center;
 }
 
+.flex {
+	display: flex;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
 .cta-btn {
 	padding: 10px 30px;
 	color: white;
 	border: 1px solid white;
 	text-transform: uppercase;
 	border-radius: 25px;
+}
+
+.p-5{
+	padding: 5px;
+}
+
+.pr-5 {
+	padding-right: 5px;
 }
 
 /* Main */
@@ -30,11 +46,27 @@ main {
 .sidebar {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	width: 50px;
 	height: calc(100vh - 100px);
 	background-color: black;
 	border: 1px solid white;
+	padding: 10px 10px 0;
+}
+
+.upper-sidebar {
+	height: calc(100vh - 100px);
+	display: flex;
+	flex-direction: column;
+}
+.lower-sidebar {
+	height: calc(100vh - 100px);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+#sb-download-icon{
+	
 }
 
 .content {
@@ -79,6 +111,11 @@ main {
 .navbar ul li {
 	list-style-type: none;
 }
+
+/* Sidebar */
+
+
+
 
 
 /* Header */
