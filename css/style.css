@@ -48,6 +48,10 @@ body {
   max-width: 50%;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 /* Main */
 
 main {
@@ -152,8 +156,13 @@ footer {
   display: flex;
   height: 100px;
   width: 100vw;
-  background-color: #52aa7a;
+  background-color: #bf53e0;
   border: 1px solid white;
+}
+
+
+.current-track {
+	
 }
 
 .currently-playing {
@@ -164,22 +173,23 @@ footer {
   border: 1px solid white;
 }
 
-.current-track {
-  /* border: 1px solid white; */
+.playing-track-info {
+	padding-top: 25px;
+  	font-size: smaller;
 }
 
-.playing-track-info ul {
-  list-style-type: none;
-  padding-bottom: 10px;
-  padding-top: 20px;
-  color: white;
-  margin-right: 10px;
-  font-size: 15px;
+.playing-track-info p{
+	color: white;
+	text-align: left;
+}
+.playing-track-info{
+	display: inline-block;
 }
 
 .track-actions {
   color: white;
   /* border: 1px solid white; */
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,6 +198,7 @@ footer {
 #sinister-playing {
   height: 100%;
   padding: 30px 10px;
+  float: left;
 }
 
 .music-player {
@@ -250,7 +261,7 @@ footer {
 	border: 1px solid white;
 	color: white;
 	display: flex;
-	align-content: center;
+	align-items: center;
 }
 
 .music-control i{
