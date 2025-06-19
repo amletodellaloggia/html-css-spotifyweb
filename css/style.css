@@ -156,8 +156,8 @@ footer {
   display: flex;
   height: 100px;
   width: 100vw;
-  background-color: #bf53e0;
-  border: 1px solid white;
+  background-color: #282828;
+  /* border: 1px solid white; */
 }
 
 
@@ -168,9 +168,9 @@ footer {
 .currently-playing {
   height: 100%;
   width: 25%;
-  background-color: green;
+  /* background-color: green; */
   display: flex;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .playing-track-info {
@@ -200,6 +200,8 @@ footer {
   padding: 30px 10px;
   float: left;
 }
+
+/* Music Player */
 
 .music-player {
   display: flex;
@@ -254,11 +256,16 @@ footer {
 }
 
 
-.music-control {
+/* Music Side */
+
+ .music-side {
 	height: 100%;
 	width: 25%;
-	background-color: green;
-	border: 1px solid white;
+	align-content: center;
+	/* background-color: green; */
+	/* border: 1px solid white; */
+ }
+ .music-control {
 	color: white;
 	display: flex;
 	align-items: center;
@@ -266,4 +273,45 @@ footer {
 
 .music-control i{
 	padding: 5px;
+}
+
+.volume-track-bar {
+  width: 90%;
+  background-color: grey;
+  height: 5px;
+  border-radius: 5px;
+  margin: 0px 10px;
+  position: relative;
+}
+
+
+.volume-elapsed-time {
+  position: absolute;
+  background-color: silver;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 35%;
+  border-radius: 5px;
+}
+
+.volume-track-bar:hover .volume-elapsed-time {
+  background-color: green;
+}
+
+.volume-track-bar:hover .volume-controller-point {
+  display: block;
+}
+
+.volume-controller-point {
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  background-color: silver;
+  border-radius: 50%;
+  border: 1px solid black;
+  transform: translateY(-50%);
 }
