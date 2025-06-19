@@ -39,6 +39,8 @@
 	padding-bottom: 10px;
 }
 
+
+
 /* Main */
 
 main {
@@ -69,8 +71,10 @@ main {
 	justify-content: flex-end;
 }
 
-#sb-download-icon{
-	
+#sb-profile-icon{
+	border-radius: 50%;
+	background-color: gray;
+	max-width: 100%;
 }
 
 .content {
