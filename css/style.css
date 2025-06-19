@@ -45,7 +45,9 @@ body {
 	padding-bottom: 10px;
 }
 
-
+.w-50 {
+	max-width: 50%;
+}
 
 /* Main */
 
@@ -86,7 +88,7 @@ main {
 .content {
 	height: 100%;
 	width: calc(100vw - 50px);
-	background-color: brown;
+	background-color: #141922;
 	overflow-y: auto;
 	border: 1px solid white;
 }
@@ -137,7 +139,7 @@ main {
 .cta {
 	width: calc(100vw - 50px);
 	height: 100px;
-	background-color: #2D3239;
+	background-color: #080B12;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -158,6 +160,36 @@ footer {
 	background-color: #fdfa3a;
 	border: 1px solid white;
 
+}
+
+.currently-playing {
+	height: 100%;
+	background-color: green;
+	display: flex;
+	border: 1px solid white;
+}
+
+.current-track {
+	/* border: 1px solid white; */
+}
+
+.playing-track-info ul{
+	list-style-type: none;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	color: white;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+.track-actions {
+	width: 30%;
+	border: 1px solid white;
+}
+
+#sinister-playing {
+	height: 100%;
+	padding: 30px 10px;
 }
 
 .music-player {
