@@ -1,248 +1,236 @@
 /* CSS Reset */
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 body {
-	font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Utils */
 
 .justify-content-center {
-	justify-content: center;
+  justify-content: center;
 }
 
 .flex {
-	display: flex;
+  display: flex;
 }
 
 .flex-col {
-	flex-direction: column;
+  flex-direction: column;
 }
 
 .cta-btn {
-	padding: 10px 30px;
-	color: white;
-	border: 1px solid white;
-	text-transform: uppercase;
-	border-radius: 25px;
-	font-weight: bold;
+  padding: 10px 30px;
+  color: white;
+  border: 1px solid white;
+  text-transform: uppercase;
+  border-radius: 25px;
+  font-weight: bold;
 }
 
-.p-5{
-	padding: 5px;
+.p-5 {
+  padding: 5px;
 }
 
 .pr-5 {
-	padding-right: 5px;
+  padding-right: 5px;
 }
 
 .pb-10 {
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .w-50 {
-	max-width: 50%;
+  max-width: 50%;
 }
 
 /* Main */
 
 main {
-	height: calc(100vh - 100px);
-	background-color: aquamarine;
-	display: flex;
+  height: calc(100vh - 100px);
+  background-color: aquamarine;
+  display: flex;
 }
 
 /* Sidebar */
 
 .sidebar {
-	display: flex;
-	flex-direction: column;
-	width: 50px;
-	height: calc(100vh - 100px);
-	background-color: black;
-	border: 1px solid white;
-	padding: 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: calc(100vh - 100px);
+  background-color: black;
+  border: 1px solid white;
+  padding: 10px 10px 0;
 }
 
 .upper-sidebar {
-	height: calc(100vh - 100px);
-	display: flex;
-	flex-direction: column;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
 }
 .lower-sidebar {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-#sb-profile-icon{
-	border-radius: 50%;
-	background-color: gray;
-	max-width: 100%;
+#sb-profile-icon {
+  border-radius: 50%;
+  background-color: gray;
+  max-width: 100%;
 }
 
 /* Content */
 
 .content {
-	height: 100%;
-	width: calc(100vw - 50px);
-	background-color: #141922;
-	overflow-y: auto;
-	border: 1px solid white;
+  height: 100%;
+  width: calc(100vw - 50px);
+  background-color: #141922;
+  overflow-y: auto;
+  border: 1px solid white;
 }
 
 .container {
-	width: calc(100vw - 50px);
-	height: 100%;
+  width: calc(100vw - 50px);
+  height: 100%;
 }
 
-
 .row {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .col {
-	display: flex;
-	flex-direction: column;
-	width: calc(100% / 2 - 20px);
-	background-color: cadetblue;
-	border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 2 - 20px);
+  background-color: cadetblue;
+  border: 1px solid white;
 }
 
 .col img {
-	width: 100%;
+  width: 100%;
 }
 
-
 .navbar ul {
-	display: flex;
-	flex-wrap: wrap;
-	color: white;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
 }
 
 .navbar ul li {
-	list-style-type: none;
+  list-style-type: none;
 }
-
-
-
-
-
 
 /* Header */
 
 .cta {
-	width: calc(100vw - 50px);
-	height: 100px;
-	background-color: #080B12;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-end;
-	border: 1px solid white;
-
+  width: calc(100vw - 50px);
+  height: 100px;
+  background-color: #080b12;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  border: 1px solid white;
 }
 
-.col h3, p{
-	text-align: center;
+.col h3,
+p {
+  text-align: center;
 }
 
 /* Footer */
 
 footer {
-	display: flex;
-	height: 100px;
-	background-color: #fdfa3a;
-	border: 1px solid white;
-
+  display: flex;
+  height: 100px;
+  background-color: #fdfa3a;
+  border: 1px solid white;
 }
 
 .currently-playing {
-	height: 100%;	
-	background-color: green;
-	display: flex;
-	border: 1px solid white;
+  height: 100%;
+  background-color: green;
+  display: flex;
+  border: 1px solid white;
 }
 
 .current-track {
-	/* border: 1px solid white; */
+  /* border: 1px solid white; */
 }
 
-.playing-track-info ul{
-	list-style-type: none;
-	padding-bottom: 10px;
-	padding-top: 20px;
-	color: white;
-	margin-right: 10px;
-	font-size: 15px;
+.playing-track-info ul {
+  list-style-type: none;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  color: white;
+  margin-right: 10px;
+  font-size: 15px;
 }
 
 .track-actions {
-	width: 30%;
-	color: white;
-	/* border: 1px solid white; */
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	padding: 20px;
-	margin: 10px;
-	/* font-size: 15px; */
+  color: white;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #sinister-playing {
-	height: 100%;
-	padding: 30px 10px;
+  height: 100%;
+  padding: 30px 10px;
 }
 
 .music-player {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
 }
 
 .track-bar {
-	background-color: grey;
-	height: 5px;
-	border-radius: 5px;
-	margin: 0px 10px;
-	position: relative;
+width: 50%;
+  background-color: grey;
+  height: 5px;
+  border-radius: 5px;
+  margin: 0px 10px;
+  position: relative;
 }
 
 .elapsed-time {
-	position: absolute;
-	background-color: silver;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 20%;
-	border-radius: 5px;
+  position: absolute;
+  background-color: silver;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  border-radius: 5px;
 }
 
 .controller-point {
-	position: absolute;
-	display: block;
-	top: 50%;
-	right: 0;
-	width: 15px;
-	height: 15px;
-	background-color: silver;
-	border-radius: 50%;
-	border: 1px solid black;
-	transform: translateY(-50%);
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  background-color: silver;
+  border-radius: 50%;
+  border: 1px solid black;
+  transform: translateY(-50%);
 }
 
 .music-player:hover .elapsed-time {
-	background-color: green;
+  background-color: green;
 }
 
-.music-player:hover .controller-point{
-	display: block;
+.music-player:hover .controller-point {
+  display: block;
 }
