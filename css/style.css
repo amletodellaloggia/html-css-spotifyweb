@@ -60,19 +60,18 @@ main {
   display: flex;
 }
 
-
-.card h3{
-	color: white;
+.card h3 {
+  color: white;
 }
 
-.card p{
-	color: gray;
+.card p {
+  color: gray;
 }
 
-.container h2{
-	margin-left: 15px;
-	margin-bottom: 1rem;
-	color: white;
+.container h2 {
+  margin-left: 15px;
+  margin-bottom: 1rem;
+  color: white;
 }
 
 /* Sidebar */
@@ -92,6 +91,13 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+#sb-logo {
+  display: none;
+  width: 225px;
+  padding-bottom: 25px;
+}
+
 .lower-sidebar {
   display: flex;
   flex-direction: column;
@@ -137,7 +143,7 @@ main {
   width: 100%;
 }
 
-.navbar ul{
+.navbar ul {
   display: flex;
   flex-wrap: wrap;
   color: grey;
@@ -153,19 +159,18 @@ main {
 }
 
 ul li {
-	position: relative;
-	display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 ul li::after {
-	content: "";
-	display: block;
-	width: 25px;
-	height: 2px;
-	margin: 0 auto;
-	border-bottom: 3px solid green;
+  content: "";
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 0 auto;
+  border-bottom: 3px solid green;
 }
-
 
 /* Header */
 
@@ -260,8 +265,8 @@ footer {
   margin-bottom: 15px;
 }
 
-#play-button{
-	font-size: 40px;
+#play-button {
+  font-size: 40px;
 }
 
 .lower-player {
@@ -376,25 +381,27 @@ footer {
   transform: translateY(-50%);
 }
 
+@media all and (min-width: 768px) {
+  .sidebar {
+    width: 250px;
+  }
+  .upper-sidebar,
+  .lower-sidebar {
+    width: 25%;
+  }
 
-@media all and (min-width: 768px){
+  .content,
+  .container,
+  h2,
+  .cta,
+  .footer {
+    width: calc(100vw - 250px);
+  }
 
-	.sidebar {
-		width: 250px;
-	}
-	.upper-sidebar, .lower-sidebar {
-		width: 25%;
-	}
-
-	.content, .container, h2, .cta, .footer {
-		width: calc(100vw - 250px);
-	}
-
-	#sb-logo-small {
-		display: none;
-	}
-}	#sb-logo {
-	display: inline-block;
-	width: 225px;
-	padding-bottom: 25px;
+  #sb-logo-small {
+    display: none;
+  }
+  #sb-logo {
+    display: inline-block;
+  }
 }
