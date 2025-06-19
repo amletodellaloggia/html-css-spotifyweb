@@ -49,7 +49,7 @@ body {
 }
 
 .bold {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 /* Main */
@@ -157,42 +157,46 @@ footer {
   height: 100px;
   width: 100vw;
   background-color: #282828;
-  /* border: 1px solid white; */
+  border: 1px solid white;
+  justify-content: space-between;
+  align-items: center;
 }
 
+/* Music Player */
 
 .current-track {
-	
 }
 
 .currently-playing {
   height: 100%;
-  width: 25%;
+  /* width: 25%; */
   /* background-color: green; */
   display: flex;
   /* border: 1px solid white; */
 }
 
 .playing-track-info {
-	padding-top: 25px;
-  	font-size: smaller;
+  padding-top: 25px;
+  font-size: smaller;
 }
 
-.playing-track-info p{
-	color: white;
-	text-align: left;
+.playing-track-info p {
+  color: white;
+  text-align: left;
 }
-.playing-track-info{
-	display: inline-block;
+.playing-track-info {
+  display: inline-block;
 }
 
 .track-actions {
   color: white;
+  padding: 0 5px;
   /* border: 1px solid white; */
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 25px;
 }
 
 #sinister-playing {
@@ -201,22 +205,45 @@ footer {
   float: left;
 }
 
-/* Music Player */
-
 .music-player {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: center; */
   width: 50%;
 }
 
+.upper-player {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 15px;
+}
+
+#play-button{
+	font-size: 40px;
+}
+
+.lower-player {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
 .track-time {
-	font-weight: bold;
-	color: white;
+  font-weight: bold;
+  color: white;
 }
 
 .track-bar {
-  width: 40%;
+  width: 50%;
   background-color: grey;
   height: 5px;
   border-radius: 5px;
@@ -255,24 +282,23 @@ footer {
   display: block;
 }
 
-
 /* Music Side */
 
- .music-side {
-	height: 100%;
-	width: 25%;
-	align-content: center;
-	/* background-color: green; */
-	/* border: 1px solid white; */
- }
- .music-control {
-	color: white;
-	display: flex;
-	align-items: center;
+.music-side {
+  height: 100%;
+  width: 25%;
+  align-content: center;
+  /* background-color: green; */
+  /* border: 1px solid white; */
+}
+.music-control {
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
-.music-control i{
-	padding: 5px;
+.music-control i {
+  padding: 5px;
 }
 
 .volume-track-bar {
@@ -283,7 +309,6 @@ footer {
   margin: 0px 10px;
   position: relative;
 }
-
 
 .volume-elapsed-time {
   position: absolute;
