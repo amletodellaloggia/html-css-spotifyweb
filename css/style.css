@@ -5,6 +5,11 @@
 	box-sizing: border-box;
 }
 
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 /* Utils */
 
 .justify-content-center {
@@ -25,6 +30,7 @@
 	border: 1px solid white;
 	text-transform: uppercase;
 	border-radius: 25px;
+	font-weight: bold;
 }
 
 .p-5{
@@ -131,7 +137,7 @@ main {
 .cta {
 	width: calc(100vw - 50px);
 	height: 100px;
-	background-color: blueviolet;
+	background-color: #2D3239;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
