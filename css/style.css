@@ -60,6 +60,9 @@ main {
   display: flex;
 }
 
+
+
+
 /* Sidebar */
 
 .sidebar {
@@ -122,15 +125,37 @@ main {
   width: 100%;
 }
 
-.navbar ul {
+.navbar ul{
   display: flex;
   flex-wrap: wrap;
   color: white;
+  text-transform: uppercase;
+  width: 75%;
+  gap: 10px;
+  padding: 10px;
+  line-height: 2;
 }
 
 .navbar ul li {
   list-style-type: none;
 }
+
+ul li {
+	position: relative;
+	display: inline-block;
+}
+
+li::after {
+	content: "";
+	display: block;
+	bottom: 0;
+	left: 0;
+	margin-left: 15px;
+	width: 50%;
+	height: 2px;
+	border-bottom: 2px solid green;
+}
+
 
 /* Header */
 
