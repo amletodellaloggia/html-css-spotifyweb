@@ -96,6 +96,10 @@ h3 {
   flex-direction: column;
 }
 
+.upper-sidebar h3 {
+	padding-top: 10px;
+}
+
 #sb-logo {
   display: none;
   width: 225px;
