@@ -151,12 +151,14 @@ p {
 footer {
   display: flex;
   height: 100px;
-  background-color: #fdfa3a;
+  width: 100vw;
+  background-color: #52aa7a;
   border: 1px solid white;
 }
 
 .currently-playing {
   height: 100%;
+  width: 25%;
   background-color: green;
   display: flex;
   border: 1px solid white;
@@ -192,11 +194,16 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 50%;
+}
+
+.track-time {
+	font-weight: bold;
+	color: white;
 }
 
 .track-bar {
-width: 50%;
+  width: 40%;
   background-color: grey;
   height: 5px;
   border-radius: 5px;
@@ -233,4 +240,19 @@ width: 50%;
 
 .music-player:hover .controller-point {
   display: block;
+}
+
+
+.music-control {
+	height: 100%;
+	width: 25%;
+	background-color: green;
+	border: 1px solid white;
+	color: white;
+	display: flex;
+	align-content: center;
+}
+
+.music-control i{
+	padding: 5px;
 }
