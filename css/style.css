@@ -74,10 +74,20 @@ margin-top: 3rem;
   margin-bottom: 1rem;
   color: white;
 }
-h3 {
-	margin-top: 0;
-	color: grey;
+
+.mt-0 {
+  margin-top: 0;
+  display: none;
 }
+
+.hr {
+  display: none;
+  width: 220px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+
+}
+
 /* Sidebar */
 
 .sidebar {
@@ -417,6 +427,10 @@ footer {
     display: inline-block;
   }
 
+  #sb-download-icon {
+    width: 50px;
+  }
+
   .row {
   display: flex;
   flex-wrap: wrap;
@@ -433,6 +447,13 @@ footer {
 	display: flex;
   }
 
-  
+  .mt-0 {
+    display: flex;
+    color: gray;
+  }
+
+  .hr {
+    display: block;
+  }
 
 }
