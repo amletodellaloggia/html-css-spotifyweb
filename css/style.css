@@ -140,6 +140,13 @@ main {
   border-radius: 50%;
 }
 
+.sidebar-buttons.pb-10.flex{
+  color: grey;
+}
+.sidebar-buttons.pb-10.flex:hover{
+  color: rgb(255, 255, 255);
+}
+
 /* Sidebar */
 
 .sidebar {
