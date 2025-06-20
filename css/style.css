@@ -227,6 +227,7 @@ ul li::after {
 .col h3,
 p {
   text-align: center;
+  padding-top: 10px;
 }
 
 /* Footer */
@@ -482,6 +483,7 @@ footer {
 
   .col {
 	width: calc(100% / 4 - 20px);
+  padding-top: 10px;
   }
 
   #next-row, #next-row-h2, #next-row-h3 {
