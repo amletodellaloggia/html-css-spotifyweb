@@ -73,10 +73,15 @@ main {
 }
 
 h2, h3 {
-margin-top: 3rem;
+/* margin-top: 3rem; */
   margin-left: 15px;
-  margin-bottom: 1rem;
-  color: white;
+  /* margin-bottom: 1rem; */
+}
+
+
+
+.card p {
+  margin-bottom: 2rem;
 }
 
 .mt-0 {
@@ -415,8 +420,21 @@ footer {
   transform: translateY(-50%);
 }
 
-#next-row, #next-row-h2, #next-row-h3 {
+.container h2 {
+  color: white;
+}
+
+.row h3 {
+  color: white;
+}
+
+#next-row, #next-row-h3 {
 	display: none;
+  color: gray;
+  }
+
+  #next-row h2{
+    color: white;
   }
 
 
@@ -501,7 +519,7 @@ footer {
 
 }
 
-@media all and (min-width: 991px) {
+@media all and (min-width: 992px) {
 
   .col {
     width: calc(100% / 6 - 20px);
