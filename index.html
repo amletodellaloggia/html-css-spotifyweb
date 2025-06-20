@@ -27,40 +27,38 @@
 
 				<a href="#" class="pb-10"><img src="./img/logo.svg" alt="logo-small" id="sb-logo"></a>
 
-				<a href="#" class="pb-10 flex">
+				<div class="sidebar-buttons pb-10 flex">
 					<img src="./img/home.svg" alt="home" id="sb-home-icon">
-					<h3 class="mt-0">Home</h3>
-				</a>
+					<h3 class="mt-0 text-gray">Home</h3>
+				</div>
 
-				<a href="#" class="pb-10 flex"><img src="./img/search.svg" alt="search" id="sb-search-icon">
-					<h3 class="mt-0">Cerca</h3>
-				</a>
+				<div class="sidebar-buttons pb-10 flex"><img src="./img/search.svg" alt="search" id="sb-search-icon">
+					<h3 class="mt-0 text-gray">Cerca</h3>
+				</div>
 
-				<a href="#" class="pb-10 flex"><img src="./img/libreria.svg" alt="libreria-icon" id="sb-libreria-icon">
-					<h3 class="mt-0">La tua libreria</h3>
-				</a>
+				<div class="sidebar-buttons pb-10 flex"><img src="./img/libreria.svg" alt="libreria-icon"
+						id="sb-libreria-icon">
+					<h3 class="mt-0 text-gray">La tua libreria</h3>
+				</div>
 
-				<h3 class="pb-10">PLAYLIST</h3>
+				<h3 class="sidebar-buttons pb-10 text-white">PLAYLIST</h3>
 
-				<a href="#" class="pb-10 flex"><i class="fa-sharp fa-solid fa-square-plus" style="color: gray;"></i>
-					<h3 class=>Crea Playlist</h3>
-				</a>
-				<h3 class=>Nome Playlist</h3>
-				<h3 class=>Nome Playlist</h3>
-				<h3 class=>Nome Playlist</h3>
-				<h3 class=>Nome Playlist</h3>
-				<h3 class=>Nome Playlist</h3>
-				<h3 class=>Nome Playlist</h3>
+				<div class="sidebar-buttons pb-10 flex"><i class="fa-sharp fa-solid fa-square-plus"
+						style="color: gray;"></i>
+					<h3 class="text-gray">Crea Playlist</h3>
+				</div>
+				<h3 class="text-gray">Nuova Playlist</h3>
 			</div>
 			<!-- lower sidebar -->
 			<div class="lower-sidebar">
-				<a href="#" class="flex" id="download-link"><img src="./img/download.svg" alt="download" id="sb-download-icon">
-					<h3 class="mt-0 pl-10">Installa app</h3>
-				</a>
+				<div class="sidebar-buttons flex" id="download-link"><img src="./img/download.svg" alt="download"
+						id="sb-download-icon">
+					<h3 class="mt-0 pl-10 text-gray">Installa app</h3>
+				</div>
 				<hr class="hr">
-				<a href="#" class="pb-10 flex"><img src="./img/profile.svg" alt="profile" id="sb-profile-icon">
-					<h3 class="mt-0 pl-10">John Doe</h3>
-				</a>
+				<div class="sidebar-buttons pb-10 flex"><img src="./img/profile.svg" alt="profile" id="sb-profile-icon">
+					<h3 class="mt-0 pl-10 text-white">John Doe</h3>
+				</div>
 			</div>
 		</div>
 		<!-- content (header + container) -->
@@ -87,7 +85,11 @@
 					<!-- column -->
 					<div class="col">
 						<div class="card">
-							<img src="./img/metal_lifting.jpg" alt="metal">
+							<div class="card-img">
+								<img src="./img/metal_lifting.jpg" alt="metal">
+								<div class="overlay">Play</div>
+							</div>
+
 							<h3>Lorem</h3>
 							<p>Lorem ipsum</p>
 						</div>
@@ -129,7 +131,7 @@
 					</div>
 				</div>
 
-				
+
 				<h2 id="next-row-h2" class="pl-10">Creato per John Doe</h2>
 				<h3 id="next-row-h3" class="pl-10">Più ascolti, più accurati saranno i suggerimenti.</h3>
 				<div class="row justify-content-center" id="next-row">
