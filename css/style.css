@@ -235,6 +235,7 @@ p {
 /* Footer */
 
 footer {
+  position: fixed;
   display: flex;
   height: 100px;
   width: 100vw;
@@ -258,6 +259,8 @@ footer {
 }
 
 .playing-track-info {
+  display: flex;
+  flex-direction: column;
   padding-top: 25px;
   font-size: smaller;
 }
@@ -265,9 +268,6 @@ footer {
 .playing-track-info p {
   color: white;
   text-align: left;
-}
-.playing-track-info {
-  display: inline-block;
 }
 
 .track-actions {
@@ -432,7 +432,6 @@ footer {
 }
 
 #next-row, #next-row-h3 {
-	display: none;
   color: gray;
   }
 
