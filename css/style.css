@@ -92,6 +92,10 @@ margin-top: 3rem;
 
 }
 
+#youg, #einaudi {
+  border-radius: 50%;
+}
+
 /* Sidebar */
 
 .sidebar {
@@ -415,6 +419,9 @@ footer {
 	display: none;
   }
 
+
+/* MEDIA QUERIES */
+
 @media all and (min-width: 768px) {
   .sidebar {
     width: 250px;
@@ -491,5 +498,14 @@ footer {
   height: 100%;
   width: 100%;
 }
+
+}
+
+@media all and (min-width: 991px) {
+
+  .col {
+    width: calc(100% / 6 - 20px);
+  }
+
 
 }
