@@ -212,6 +212,7 @@ main {
 
 .sidebar-buttons {
   border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
 }
 .sidebar-buttons:hover {
   cursor: pointer;
@@ -595,9 +596,11 @@ footer {
   font-size: 10px;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES - MOBILE FIRST */
 
-@media all and (min-width: 768px) {
+/* SMALL */
+
+@media all and (min-width: 576px) {
   .sidebar {
     width: 250px;
   }
@@ -633,10 +636,10 @@ footer {
     padding-left: 10px;
   }
 
-  .col {
+  /* .col {
     width: calc(100% / 4 - 20px);
     padding-top: 10px;
-  }
+  } */
 
   #next-row,
   #next-row-h2,
@@ -680,11 +683,24 @@ footer {
 
 }
 
+/* MEDIUM */
+
+@media all and (min-width: 768px) {
+  .col {
+    width: calc(100% / 4 - 20px);
+    padding-top: 10px;
+  }
+}
+
+
+/* LARGE */
 @media all and (min-width: 992px) {
   .col {
     width: calc(100% / 6 - 20px);
+    padding-top: 10px;
   }
 }
+
 
 /* p:hover,
 li:hover,
