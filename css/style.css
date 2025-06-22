@@ -288,6 +288,10 @@ ul li::after {
   opacity: 0;
 }
 
+ul li:hover {
+  color: white;
+}
+
 ul li:hover::after {
   opacity: 1;
 }
@@ -597,7 +601,7 @@ footer {
   }
 }
 
-p:hover,
+/* p:hover,
 li:hover,
 h2:hover,
 h3:hover,
@@ -611,4 +615,4 @@ i:hover,
   color: white;
   cursor: pointer;
   fill: white;
-}
+} */
