@@ -40,6 +40,17 @@ i.fa-sharp {
   padding: 5px;
 }
 
+.pt-5 {
+  padding-top: 5px;
+}
+.pt-3 {
+  padding-top: 3px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
 .pl-15 {
   padding-left: 15px;
 }
@@ -69,8 +80,7 @@ i.fa-sharp {
 /* OVERLAY */
 
 .card-img {
-  position: relative; 
-  
+  position: relative;
 }
 
 .card img {
@@ -94,15 +104,17 @@ i.fa-sharp {
   align-items: center;
   opacity: 0;
   transition: 0.3s;
-
 }
 
-.card-img:hover .overlay{
+.card:hover .card-img .overlay {
   opacity: 1;
 }
 
-/* Main */
+.card:hover {
+  color: white;
+}
 
+/* Main */
 
 main {
   height: calc(100vh - 100px);
@@ -140,10 +152,10 @@ main {
   border-radius: 50%;
 }
 
-.sidebar-buttons.pb-10.flex{
+.sidebar-buttons.pb-10.flex {
   color: grey;
 }
-.sidebar-buttons.pb-10.flex:hover{
+.sidebar-buttons.pb-10.flex:hover {
   color: rgb(255, 255, 255);
 }
 
@@ -195,7 +207,8 @@ main {
 #sb-profile-icon {
   border-radius: 50%;
   background-color: gray;
-  max-width: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 /* Content */
@@ -258,6 +271,11 @@ ul li::after {
   height: 2px;
   margin: 0 auto;
   border-bottom: 3px solid green;
+  opacity: 0;
+}
+
+ul li:hover::after {
+  opacity: 1;
 }
 
 /* Header */
@@ -476,7 +494,6 @@ footer {
 .row h3 {
   color: white;
 }
-
 
 #sb-download-icon {
   width: 20px;
