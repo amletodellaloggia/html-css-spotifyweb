@@ -110,6 +110,10 @@ i.fa-sharp {
   opacity: 1;
 }
 
+.card:hover p{
+  color: white;
+}
+
 .card:hover {
   color: white;
 }
@@ -188,6 +192,23 @@ main {
 .sidebar-buttons:hover {
   cursor: pointer;
   border-left: 3px solid green;
+}
+
+.sidebar-buttons h3:hover {
+  color: white;
+}
+
+
+.crea-playlist {
+    color: gray;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.crea-playlist:hover{
+  color: white;
 }
 
 
