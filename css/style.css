@@ -178,6 +178,12 @@ main {
   color: rgb(255, 255, 255);
 }
 
+.sidebar-buttons-low h3:hover{
+  color: white;
+  
+}
+
+
 .border-circle{
   border-radius: 50%;
 }
