@@ -91,6 +91,7 @@ i.fa-sharp {
 
 .card-img {
   position: relative;
+  cursor: pointer;
 }
 
 .card img {
@@ -180,6 +181,7 @@ main {
 
 .sidebar-buttons-low h3:hover{
   color: white;
+  cursor: pointer;
   
 }
 
@@ -313,6 +315,7 @@ main {
 
 .navbar ul li {
   list-style-type: none;
+  cursor: pointer;
 }
 
 ul li {
@@ -354,6 +357,7 @@ ul li:hover::after {
 .col h3,
 p {
   text-align: center;
+  cursor: pointer;
 }
 
 /* Footer */
@@ -656,6 +660,7 @@ footer {
 
   .nuova-playlist {
     color: gray;
+    cursor: pointer;
   }
   .nuova-playlist:hover {
     color: white;
