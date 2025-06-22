@@ -168,6 +168,11 @@ main {
   color: rgb(255, 255, 255);
 }
 
+.border-circle{
+  border-radius: 50%;
+}
+
+
 /* Sidebar */
 
 .sidebar {
