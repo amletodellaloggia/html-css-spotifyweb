@@ -414,15 +414,21 @@ footer {
   width: 100%;
   color: white;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 35px;
   margin-bottom: 15px;
+  position: sticky;
 }
 
 #play-button {
   font-size: 40px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.upper-player #play-button:hover{
+  transform: scale(1.2);
 }
 
 .lower-player {
