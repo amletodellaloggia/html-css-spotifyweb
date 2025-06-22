@@ -116,6 +116,7 @@ i.fa-sharp {
   align-items: center;
   opacity: 0;
   transition: 0.3s;
+  border-radius: 50%;
 }
 
 .card:hover .card-img .overlay {
