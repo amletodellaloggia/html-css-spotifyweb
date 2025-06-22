@@ -114,6 +114,11 @@ i.fa-sharp {
   color: white;
 }
 
+/* sidebar green-highlight */
+
+
+
+
 /* Main */
 
 main {
@@ -176,6 +181,15 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.sidebar-buttons {
+  border-left: 3px solid transparent;
+}
+.sidebar-buttons:hover {
+  cursor: pointer;
+  border-left: 3px solid green;
+}
+
 
 .upper-sidebar h3 {
   margin-left: 15px;
