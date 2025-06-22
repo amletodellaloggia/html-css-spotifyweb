@@ -34,6 +34,7 @@ i.fa-sharp {
   text-transform: uppercase;
   border-radius: 25px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .cta-btn:hover {
@@ -179,7 +180,7 @@ main {
   color: rgb(255, 255, 255);
 }
 
-.sidebar-buttons-low h3:hover{
+.sidebar-buttons-low #installa-app:hover{
   color: white;
   cursor: pointer;
   
@@ -387,13 +388,14 @@ footer {
 }
 
 .playing-track-info {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   padding-top: 25px;
   font-size: smaller;
 }
 
-.playing-track-info p {
+.playing-track-info p{
   color: white;
   text-align: left;
 }
@@ -408,6 +410,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   padding-left: 25px;
+  cursor: pointer;
 }
 
 .fa-regular.fa-heart:hover{
@@ -443,7 +446,12 @@ footer {
   position: sticky;
 }
 
+.upper-player i{
+  cursor: pointer;
+}
+
 #play-button {
+  cursor: pointer;
   font-size: 40px;
   display: inline-block;
   transition: transform 0.3s ease;
@@ -459,6 +467,7 @@ footer {
   color: white;
   align-items: center;
   justify-content: center;
+  
 }
 
 .track-time {
@@ -473,6 +482,7 @@ footer {
   border-radius: 5px;
   margin: 0px 10px;
   position: relative;
+  cursor: pointer;
 }
 
 .elapsed-time {
@@ -523,6 +533,7 @@ footer {
 
 .music-control i {
   padding: 5px;
+  cursor: pointer;
 }
 
 .volume-track-bar {
@@ -532,6 +543,7 @@ footer {
   border-radius: 5px;
   margin: 0px 10px;
   position: relative;
+  cursor: pointer;
 }
 
 .volume-elapsed-time {
