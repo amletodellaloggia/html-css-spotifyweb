@@ -385,14 +385,22 @@ footer {
 }
 
 .track-actions {
-  color: white;
+  color: grey;
   padding: 0 5px;
   /* border: 1px solid white; */
   /* width: 50%; */
+  gap: 7px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 25px;
+}
+
+.fa-regular.fa-heart:hover{
+  color: white;
+}
+.fa-regular.fa-folder:hover{
+  color: white;
 }
 
 #sinister-playing {
