@@ -386,8 +386,6 @@ ul li:hover::after {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  /* border: 1px solid white; */
-  transition: ;
 }
 
 .col h4,
@@ -410,9 +408,6 @@ footer {
 }
 
 /* Music Player */
-
-.current-track {
-}
 
 .currently-playing {
   height: 100%;
